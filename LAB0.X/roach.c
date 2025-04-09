@@ -349,7 +349,7 @@ char Roach_BarGraph(uint8_t Number)
     return SUCCESS;
 }
 
-//#define ROACH_TEST
+#define ROACH_TEST
 #ifdef ROACH_TEST
 
 
