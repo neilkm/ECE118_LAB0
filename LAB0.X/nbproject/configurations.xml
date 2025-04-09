@@ -4,6 +4,32 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <logicalFolder name="ece118_base" displayName="ece118_base" projectFiles="true">
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/timers.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/RC_Servo.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_LookupTables.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Framework.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Queue.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_TimerService.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_PriorTables.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/pwm.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_PostList.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Port.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/roach.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/serial.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_ServiceHeaders.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/LED.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_TattleTale.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Events.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/Stepper.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_KeyboardInput.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/BOARD.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_General.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_CheckEvents.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/IO_Ports.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/AD.h</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Timers.h</itemPath>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -17,11 +43,32 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>roach.c</itemPath>
+      <logicalFolder name="ece118_base" displayName="ece118_base" projectFiles="true">
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/LED.c</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_TattleTale.c</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/serial.c</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/Stepper.c</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/BOARD.c</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_KeyboardInput.c</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Timers.c</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/AD.c</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/IO_Ports.c</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_CheckEvents.c</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Framework.c</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_LookupTables.c</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/timers.c</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/RC_Servo.c</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_TimerService.c</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Queue.c</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_PostList.c</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/pwm.c</itemPath>
+        <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/roach.c</itemPath>
+      </logicalFolder>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
     <Elem>/Users/NeilK/git/ECE118/ECE118_LAB0</Elem>
+    <Elem>/Users/NeilK/git/ECE118/ece118_files/ece118_base</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -66,6 +113,62 @@
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
       </makeCustomizationType>
+      <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_CheckEvents.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Framework.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_KeyboardInput.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_LookupTables.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_PostList.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Queue.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_TattleTale.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_TimerService.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Timers.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/IO_Ports.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/LED.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/RC_Servo.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/Stepper.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/timers.c"
+            ex="true"
+            overriding="false">
+      </item>
       <C32>
         <property key="additional-warnings" value="false"/>
         <property key="addresss-attribute-use" value="false"/>
@@ -74,7 +177,8 @@
         <property key="enable-symbols" value="true"/>
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories" value=""/>
+        <property key="extra-include-directories"
+                  value="../../ece118_files/ece118_base"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="false"/>

@@ -51,17 +51,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=roach.c
+SOURCEFILES_QUOTED_IF_SPACED=/Users/NeilK/git/ECE118/ece118_files/ece118_base/serial.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/BOARD.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/AD.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/pwm.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/roach.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/roach.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/roach.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1209000582/serial.o ${OBJECTDIR}/_ext/1209000582/BOARD.o ${OBJECTDIR}/_ext/1209000582/AD.o ${OBJECTDIR}/_ext/1209000582/pwm.o ${OBJECTDIR}/_ext/1209000582/roach.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1209000582/serial.o.d ${OBJECTDIR}/_ext/1209000582/BOARD.o.d ${OBJECTDIR}/_ext/1209000582/AD.o.d ${OBJECTDIR}/_ext/1209000582/pwm.o.d ${OBJECTDIR}/_ext/1209000582/roach.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/roach.o
+OBJECTFILES=${OBJECTDIR}/_ext/1209000582/serial.o ${OBJECTDIR}/_ext/1209000582/BOARD.o ${OBJECTDIR}/_ext/1209000582/AD.o ${OBJECTDIR}/_ext/1209000582/pwm.o ${OBJECTDIR}/_ext/1209000582/roach.o
 
 # Source Files
-SOURCEFILES=roach.c
+SOURCEFILES=/Users/NeilK/git/ECE118/ece118_files/ece118_base/serial.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/BOARD.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/AD.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/pwm.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/roach.c
 
 
 
@@ -101,18 +101,66 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/roach.o: roach.c  .generated_files/flags/default/3033e5a8e975ec99b5308c3b0b969cf667f7ff33 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/roach.o.d 
-	@${RM} ${OBJECTDIR}/roach.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -MP -MMD -MF "${OBJECTDIR}/roach.o.d" -o ${OBJECTDIR}/roach.o roach.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+${OBJECTDIR}/_ext/1209000582/serial.o: /Users/NeilK/git/ECE118/ece118_files/ece118_base/serial.c  .generated_files/flags/default/44f51ca2b1659c4f0cbb5d71d8eb09500a728ab8 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/_ext/1209000582" 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/serial.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/serial.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/1209000582/serial.o.d" -o ${OBJECTDIR}/_ext/1209000582/serial.o /Users/NeilK/git/ECE118/ece118_files/ece118_base/serial.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1209000582/BOARD.o: /Users/NeilK/git/ECE118/ece118_files/ece118_base/BOARD.c  .generated_files/flags/default/4977added03ea42c0ad54d521fb4dad15a1abd75 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/_ext/1209000582" 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/BOARD.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/BOARD.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/1209000582/BOARD.o.d" -o ${OBJECTDIR}/_ext/1209000582/BOARD.o /Users/NeilK/git/ECE118/ece118_files/ece118_base/BOARD.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1209000582/AD.o: /Users/NeilK/git/ECE118/ece118_files/ece118_base/AD.c  .generated_files/flags/default/b0f01ddec148d507312923449e9f295878ae26c0 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/_ext/1209000582" 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/AD.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/AD.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/1209000582/AD.o.d" -o ${OBJECTDIR}/_ext/1209000582/AD.o /Users/NeilK/git/ECE118/ece118_files/ece118_base/AD.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1209000582/pwm.o: /Users/NeilK/git/ECE118/ece118_files/ece118_base/pwm.c  .generated_files/flags/default/5e98019e49f8844077c8df7a1e2e3f33d5096b0e .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/_ext/1209000582" 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/pwm.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/pwm.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/1209000582/pwm.o.d" -o ${OBJECTDIR}/_ext/1209000582/pwm.o /Users/NeilK/git/ECE118/ece118_files/ece118_base/pwm.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1209000582/roach.o: /Users/NeilK/git/ECE118/ece118_files/ece118_base/roach.c  .generated_files/flags/default/a31b13a492d73618220ca822471bc408f7606eb7 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/_ext/1209000582" 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/roach.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/roach.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/1209000582/roach.o.d" -o ${OBJECTDIR}/_ext/1209000582/roach.o /Users/NeilK/git/ECE118/ece118_files/ece118_base/roach.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
 else
-${OBJECTDIR}/roach.o: roach.c  .generated_files/flags/default/58aea3af332f27ede9eaffad487dcea9f49e05c5 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/roach.o.d 
-	@${RM} ${OBJECTDIR}/roach.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -MP -MMD -MF "${OBJECTDIR}/roach.o.d" -o ${OBJECTDIR}/roach.o roach.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+${OBJECTDIR}/_ext/1209000582/serial.o: /Users/NeilK/git/ECE118/ece118_files/ece118_base/serial.c  .generated_files/flags/default/3edcf56ac893aba6c0be92ce56db0b27e0f3d3db .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/_ext/1209000582" 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/serial.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/serial.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/1209000582/serial.o.d" -o ${OBJECTDIR}/_ext/1209000582/serial.o /Users/NeilK/git/ECE118/ece118_files/ece118_base/serial.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1209000582/BOARD.o: /Users/NeilK/git/ECE118/ece118_files/ece118_base/BOARD.c  .generated_files/flags/default/de11a7e1c3dd5f510eb05a6673eec007c554f6c3 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/_ext/1209000582" 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/BOARD.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/BOARD.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/1209000582/BOARD.o.d" -o ${OBJECTDIR}/_ext/1209000582/BOARD.o /Users/NeilK/git/ECE118/ece118_files/ece118_base/BOARD.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1209000582/AD.o: /Users/NeilK/git/ECE118/ece118_files/ece118_base/AD.c  .generated_files/flags/default/aeecc8e5387bf0c4d84a7dbcc33f1f8e6bc2baeb .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/_ext/1209000582" 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/AD.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/AD.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/1209000582/AD.o.d" -o ${OBJECTDIR}/_ext/1209000582/AD.o /Users/NeilK/git/ECE118/ece118_files/ece118_base/AD.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1209000582/pwm.o: /Users/NeilK/git/ECE118/ece118_files/ece118_base/pwm.c  .generated_files/flags/default/3557738757a28341ad439877f9da5b6e5268f607 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/_ext/1209000582" 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/pwm.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/pwm.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/1209000582/pwm.o.d" -o ${OBJECTDIR}/_ext/1209000582/pwm.o /Users/NeilK/git/ECE118/ece118_files/ece118_base/pwm.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1209000582/roach.o: /Users/NeilK/git/ECE118/ece118_files/ece118_base/roach.c  .generated_files/flags/default/e40bf11bc79211238127c854924f156c06cb48da .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/_ext/1209000582" 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/roach.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/roach.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/1209000582/roach.o.d" -o ${OBJECTDIR}/_ext/1209000582/roach.o /Users/NeilK/git/ECE118/ece118_files/ece118_base/roach.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
 endif
 

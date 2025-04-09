@@ -10,6 +10,7 @@
             <make-dep-projects/>
             <sourceRootList>
                 <sourceRootElem>/Users/NeilK/git/ECE118/ECE118_LAB0</sourceRootElem>
+                <sourceRootElem>/Users/NeilK/git/ECE118/ece118_files/ece118_base</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>
