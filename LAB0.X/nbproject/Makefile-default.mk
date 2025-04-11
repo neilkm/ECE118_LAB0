@@ -51,17 +51,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=/Users/NeilK/git/ECE118/ece118_files/ece118_base/serial.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/BOARD.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/AD.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/pwm.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/roach.c
+SOURCEFILES_QUOTED_IF_SPACED=/Users/NeilK/git/ECE118/ece118_files/ece118_base/serial.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/BOARD.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/AD.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Framework.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/roach.c /Users/NeilK/git/ECE118/ECE118_LAB0/LightSensorEventChecker.c /Users/NeilK/git/ECE118/ECE118_LAB0/BumperSensorEventChecker.c /Users/NeilK/git/ECE118/ECE118_LAB0/LightSensorService.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1209000582/serial.o ${OBJECTDIR}/_ext/1209000582/BOARD.o ${OBJECTDIR}/_ext/1209000582/AD.o ${OBJECTDIR}/_ext/1209000582/pwm.o ${OBJECTDIR}/_ext/1209000582/roach.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1209000582/serial.o.d ${OBJECTDIR}/_ext/1209000582/BOARD.o.d ${OBJECTDIR}/_ext/1209000582/AD.o.d ${OBJECTDIR}/_ext/1209000582/pwm.o.d ${OBJECTDIR}/_ext/1209000582/roach.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1209000582/serial.o ${OBJECTDIR}/_ext/1209000582/BOARD.o ${OBJECTDIR}/_ext/1209000582/AD.o ${OBJECTDIR}/_ext/1209000582/ES_Framework.o ${OBJECTDIR}/_ext/1209000582/roach.o ${OBJECTDIR}/_ext/212904732/LightSensorEventChecker.o ${OBJECTDIR}/_ext/212904732/BumperSensorEventChecker.o ${OBJECTDIR}/_ext/212904732/LightSensorService.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1209000582/serial.o.d ${OBJECTDIR}/_ext/1209000582/BOARD.o.d ${OBJECTDIR}/_ext/1209000582/AD.o.d ${OBJECTDIR}/_ext/1209000582/ES_Framework.o.d ${OBJECTDIR}/_ext/1209000582/roach.o.d ${OBJECTDIR}/_ext/212904732/LightSensorEventChecker.o.d ${OBJECTDIR}/_ext/212904732/BumperSensorEventChecker.o.d ${OBJECTDIR}/_ext/212904732/LightSensorService.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/_ext/1209000582/serial.o ${OBJECTDIR}/_ext/1209000582/BOARD.o ${OBJECTDIR}/_ext/1209000582/AD.o ${OBJECTDIR}/_ext/1209000582/pwm.o ${OBJECTDIR}/_ext/1209000582/roach.o
+OBJECTFILES=${OBJECTDIR}/_ext/1209000582/serial.o ${OBJECTDIR}/_ext/1209000582/BOARD.o ${OBJECTDIR}/_ext/1209000582/AD.o ${OBJECTDIR}/_ext/1209000582/ES_Framework.o ${OBJECTDIR}/_ext/1209000582/roach.o ${OBJECTDIR}/_ext/212904732/LightSensorEventChecker.o ${OBJECTDIR}/_ext/212904732/BumperSensorEventChecker.o ${OBJECTDIR}/_ext/212904732/LightSensorService.o
 
 # Source Files
-SOURCEFILES=/Users/NeilK/git/ECE118/ece118_files/ece118_base/serial.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/BOARD.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/AD.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/pwm.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/roach.c
+SOURCEFILES=/Users/NeilK/git/ECE118/ece118_files/ece118_base/serial.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/BOARD.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/AD.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Framework.c /Users/NeilK/git/ECE118/ece118_files/ece118_base/roach.c /Users/NeilK/git/ECE118/ECE118_LAB0/LightSensorEventChecker.c /Users/NeilK/git/ECE118/ECE118_LAB0/BumperSensorEventChecker.c /Users/NeilK/git/ECE118/ECE118_LAB0/LightSensorService.c
 
 
 
@@ -119,17 +119,35 @@ ${OBJECTDIR}/_ext/1209000582/AD.o: /Users/NeilK/git/ECE118/ece118_files/ece118_b
 	@${RM} ${OBJECTDIR}/_ext/1209000582/AD.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/1209000582/AD.o.d" -o ${OBJECTDIR}/_ext/1209000582/AD.o /Users/NeilK/git/ECE118/ece118_files/ece118_base/AD.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1209000582/pwm.o: /Users/NeilK/git/ECE118/ece118_files/ece118_base/pwm.c  .generated_files/flags/default/5e98019e49f8844077c8df7a1e2e3f33d5096b0e .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1209000582/ES_Framework.o: /Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Framework.c  .generated_files/flags/default/787bcdda3da6ec23908b1433bea9cf83012249b2 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1209000582" 
-	@${RM} ${OBJECTDIR}/_ext/1209000582/pwm.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1209000582/pwm.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/1209000582/pwm.o.d" -o ${OBJECTDIR}/_ext/1209000582/pwm.o /Users/NeilK/git/ECE118/ece118_files/ece118_base/pwm.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	@${RM} ${OBJECTDIR}/_ext/1209000582/ES_Framework.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/ES_Framework.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/1209000582/ES_Framework.o.d" -o ${OBJECTDIR}/_ext/1209000582/ES_Framework.o /Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Framework.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
 ${OBJECTDIR}/_ext/1209000582/roach.o: /Users/NeilK/git/ECE118/ece118_files/ece118_base/roach.c  .generated_files/flags/default/a31b13a492d73618220ca822471bc408f7606eb7 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1209000582" 
 	@${RM} ${OBJECTDIR}/_ext/1209000582/roach.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1209000582/roach.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/1209000582/roach.o.d" -o ${OBJECTDIR}/_ext/1209000582/roach.o /Users/NeilK/git/ECE118/ece118_files/ece118_base/roach.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/212904732/LightSensorEventChecker.o: /Users/NeilK/git/ECE118/ECE118_LAB0/LightSensorEventChecker.c  .generated_files/flags/default/daa5d725a00f56048bb710f7f3e0cad014ccd6bb .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/_ext/212904732" 
+	@${RM} ${OBJECTDIR}/_ext/212904732/LightSensorEventChecker.o.d 
+	@${RM} ${OBJECTDIR}/_ext/212904732/LightSensorEventChecker.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/212904732/LightSensorEventChecker.o.d" -o ${OBJECTDIR}/_ext/212904732/LightSensorEventChecker.o /Users/NeilK/git/ECE118/ECE118_LAB0/LightSensorEventChecker.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/212904732/BumperSensorEventChecker.o: /Users/NeilK/git/ECE118/ECE118_LAB0/BumperSensorEventChecker.c  .generated_files/flags/default/c2d6cbc04c0739d8746789ad3e975b159066d849 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/_ext/212904732" 
+	@${RM} ${OBJECTDIR}/_ext/212904732/BumperSensorEventChecker.o.d 
+	@${RM} ${OBJECTDIR}/_ext/212904732/BumperSensorEventChecker.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/212904732/BumperSensorEventChecker.o.d" -o ${OBJECTDIR}/_ext/212904732/BumperSensorEventChecker.o /Users/NeilK/git/ECE118/ECE118_LAB0/BumperSensorEventChecker.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/212904732/LightSensorService.o: /Users/NeilK/git/ECE118/ECE118_LAB0/LightSensorService.c  .generated_files/flags/default/e4f6aa8a113b43cf0a6ab631379936cbe8d7da73 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/_ext/212904732" 
+	@${RM} ${OBJECTDIR}/_ext/212904732/LightSensorService.o.d 
+	@${RM} ${OBJECTDIR}/_ext/212904732/LightSensorService.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/212904732/LightSensorService.o.d" -o ${OBJECTDIR}/_ext/212904732/LightSensorService.o /Users/NeilK/git/ECE118/ECE118_LAB0/LightSensorService.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
 else
 ${OBJECTDIR}/_ext/1209000582/serial.o: /Users/NeilK/git/ECE118/ece118_files/ece118_base/serial.c  .generated_files/flags/default/3edcf56ac893aba6c0be92ce56db0b27e0f3d3db .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
@@ -150,17 +168,35 @@ ${OBJECTDIR}/_ext/1209000582/AD.o: /Users/NeilK/git/ECE118/ece118_files/ece118_b
 	@${RM} ${OBJECTDIR}/_ext/1209000582/AD.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/1209000582/AD.o.d" -o ${OBJECTDIR}/_ext/1209000582/AD.o /Users/NeilK/git/ECE118/ece118_files/ece118_base/AD.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1209000582/pwm.o: /Users/NeilK/git/ECE118/ece118_files/ece118_base/pwm.c  .generated_files/flags/default/3557738757a28341ad439877f9da5b6e5268f607 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1209000582/ES_Framework.o: /Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Framework.c  .generated_files/flags/default/76793a883944831f2ca951791bc20ef48ca51d29 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1209000582" 
-	@${RM} ${OBJECTDIR}/_ext/1209000582/pwm.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1209000582/pwm.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/1209000582/pwm.o.d" -o ${OBJECTDIR}/_ext/1209000582/pwm.o /Users/NeilK/git/ECE118/ece118_files/ece118_base/pwm.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	@${RM} ${OBJECTDIR}/_ext/1209000582/ES_Framework.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1209000582/ES_Framework.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/1209000582/ES_Framework.o.d" -o ${OBJECTDIR}/_ext/1209000582/ES_Framework.o /Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Framework.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
 ${OBJECTDIR}/_ext/1209000582/roach.o: /Users/NeilK/git/ECE118/ece118_files/ece118_base/roach.c  .generated_files/flags/default/e40bf11bc79211238127c854924f156c06cb48da .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1209000582" 
 	@${RM} ${OBJECTDIR}/_ext/1209000582/roach.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1209000582/roach.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/1209000582/roach.o.d" -o ${OBJECTDIR}/_ext/1209000582/roach.o /Users/NeilK/git/ECE118/ece118_files/ece118_base/roach.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/212904732/LightSensorEventChecker.o: /Users/NeilK/git/ECE118/ECE118_LAB0/LightSensorEventChecker.c  .generated_files/flags/default/8e19565152ee4d5507133815cb808eff62b3bc1a .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/_ext/212904732" 
+	@${RM} ${OBJECTDIR}/_ext/212904732/LightSensorEventChecker.o.d 
+	@${RM} ${OBJECTDIR}/_ext/212904732/LightSensorEventChecker.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/212904732/LightSensorEventChecker.o.d" -o ${OBJECTDIR}/_ext/212904732/LightSensorEventChecker.o /Users/NeilK/git/ECE118/ECE118_LAB0/LightSensorEventChecker.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/212904732/BumperSensorEventChecker.o: /Users/NeilK/git/ECE118/ECE118_LAB0/BumperSensorEventChecker.c  .generated_files/flags/default/58fb6ee785e09dbb23a81489bf129909eaca5db4 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/_ext/212904732" 
+	@${RM} ${OBJECTDIR}/_ext/212904732/BumperSensorEventChecker.o.d 
+	@${RM} ${OBJECTDIR}/_ext/212904732/BumperSensorEventChecker.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/212904732/BumperSensorEventChecker.o.d" -o ${OBJECTDIR}/_ext/212904732/BumperSensorEventChecker.o /Users/NeilK/git/ECE118/ECE118_LAB0/BumperSensorEventChecker.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/212904732/LightSensorService.o: /Users/NeilK/git/ECE118/ECE118_LAB0/LightSensorService.c  .generated_files/flags/default/1cc0b0c4ff001867b4fc9799fd20901179bfaf1b .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
+	@${MKDIR} "${OBJECTDIR}/_ext/212904732" 
+	@${RM} ${OBJECTDIR}/_ext/212904732/LightSensorService.o.d 
+	@${RM} ${OBJECTDIR}/_ext/212904732/LightSensorService.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../../ece118_files/ece118_base" -MP -MMD -MF "${OBJECTDIR}/_ext/212904732/LightSensorService.o.d" -o ${OBJECTDIR}/_ext/212904732/LightSensorService.o /Users/NeilK/git/ECE118/ECE118_LAB0/LightSensorService.c    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
 endif
 

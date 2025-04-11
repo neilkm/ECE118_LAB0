@@ -30,6 +30,10 @@
         <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/AD.h</itemPath>
         <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Timers.h</itemPath>
       </logicalFolder>
+      <itemPath>/Users/NeilK/git/ECE118/ECE118_LAB0/LightSensorEventChecker.h</itemPath>
+      <itemPath>/Users/NeilK/git/ECE118/ECE118_LAB0/ES_Configure.h</itemPath>
+      <itemPath>/Users/NeilK/git/ECE118/ECE118_LAB0/BumperSensorEventChecker.h</itemPath>
+      <itemPath>/Users/NeilK/git/ECE118/ECE118_LAB0/LightSensorService.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -64,6 +68,9 @@
         <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/pwm.c</itemPath>
         <itemPath>/Users/NeilK/git/ECE118/ece118_files/ece118_base/roach.c</itemPath>
       </logicalFolder>
+      <itemPath>/Users/NeilK/git/ECE118/ECE118_LAB0/LightSensorEventChecker.c</itemPath>
+      <itemPath>/Users/NeilK/git/ECE118/ECE118_LAB0/BumperSensorEventChecker.c</itemPath>
+      <itemPath>/Users/NeilK/git/ECE118/ECE118_LAB0/LightSensorService.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
@@ -116,58 +123,258 @@
       <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_CheckEvents.c"
             ex="true"
             overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
       </item>
       <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Framework.c"
-            ex="true"
+            ex="false"
             overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
       </item>
       <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_KeyboardInput.c"
             ex="true"
             overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
       </item>
       <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_LookupTables.c"
             ex="true"
             overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
       </item>
       <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_PostList.c"
             ex="true"
             overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
       </item>
       <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Queue.c"
             ex="true"
             overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
       </item>
       <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_TattleTale.c"
             ex="true"
             overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
       </item>
       <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_TimerService.c"
             ex="true"
             overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
       </item>
       <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/ES_Timers.c"
             ex="true"
             overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
       </item>
       <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/IO_Ports.c"
             ex="true"
             overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
       </item>
       <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/LED.c"
             ex="true"
             overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
       </item>
       <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/RC_Servo.c"
             ex="true"
             overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
       </item>
       <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/Stepper.c"
+            ex="true"
+            overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
+      </item>
+      <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/pwm.c"
             ex="true"
             overriding="false">
       </item>
       <item path="/Users/NeilK/git/ECE118/ece118_files/ece118_base/timers.c"
             ex="true"
             overriding="false">
+        <C32>
+        </C32>
+        <C32-AR>
+        </C32-AR>
+        <C32-AS>
+        </C32-AS>
+        <C32-CO>
+        </C32-CO>
+        <C32-LD>
+        </C32-LD>
+        <C32CPP>
+        </C32CPP>
+        <C32Global>
+        </C32Global>
       </item>
       <C32>
         <property key="additional-warnings" value="false"/>
@@ -346,6 +553,7 @@
         <property key="event.recorder.debugger.behavior" value="Running"/>
         <property key="event.recorder.enabled" value="false"/>
         <property key="event.recorder.scvd.files" value=""/>
+        <property key="firmware.download.all" value="false"/>
         <property key="hwtoolclock.frcindebug" value="false"/>
         <property key="lastid" value=""/>
         <property key="memories.aux" value="false"/>
